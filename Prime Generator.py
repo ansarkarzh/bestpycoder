@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 n = int(input())
 primes = []
 for i in range(n):
@@ -6,7 +6,7 @@ for i in range(n):
     for j in range(a[0], a[1]+1):
         if j!=1:
             for k in primes:
-                if k > int(math.sqrt(j)+1):
+                if k > int(sqrt(j)+1):
                     primes.append(j)
                     break
                 if (j % k == 0):
