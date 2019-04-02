@@ -1,0 +1,8 @@
+n, s = map(int, input().split())
+a = list(map(int, input().split()))
+counter = 0
+a = sorted(a)
+while s >= a[counter]:
+    s = s - a[counter]
+    counter += 1
+print(counter)
