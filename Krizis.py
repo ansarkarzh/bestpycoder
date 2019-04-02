@@ -6,5 +6,5 @@ for i in range(len(a)):
     if a[i] <= s:
         s -= a[i]
     else:
-        print(int(i))
+        print(i)
         break
