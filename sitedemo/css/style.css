@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, monospace; 
+	padding: 0px;
+	margin: 0px;
+	color: #222222;
+}
+header {
+
+background: url(../css/img/head.jpg) no-repeat top / cover;
+	height: 700px;
+	width: 100%;
+
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.container{
+	
+	width: 1280px;
+	margin: 0 auto;
+}
+
+
+.circle-outer {
+text-align:center;
+}
+
+.circle {
+width:350px;
+height:300px;
+border-radius:50%;/
+
+
+}
+
+.titles{
+padding-top:30px;
+padding-right: 25px;
+}
+.titles__first{
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+span{
+	font-size: 75px;
+	color: orange;
+	text-transform: uppercase;
+    text-align: right;
+    
+}
+h2{
+	color: orange;
+	text-transform: uppercase;
+	text-align: center;
+}
+#intro{
+    font-size: 20px;
+	text-align: center;
+
+}
+.title{
+	padding: 115px;
+}
+audio{
+	border: 3px solid #ffb938;
+	border-radius: 24%;
+	height: 25px;
+	padding: 0px;
+}
+
+#songs{
+	padding-left: 10px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	font-size: 21px;
+	float: left;
+}
+
+.serials_name{
+	padding-left: 10px;
+	text-align: left;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-size: 25px;
+	color: #ffb938;
+}
+footer{
+	padding: 10px;
+	background-color: #d3d3d3;
+    left: 0; bottom: 0; 
+    width: 100%; 
+}
